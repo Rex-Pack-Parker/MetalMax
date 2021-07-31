@@ -1,7 +1,7 @@
 
 Set WSS = CreateObject("WScript.Shell")
 
-Const GEOM_Title = "Citra MetalMax4 ´æµµ±¸·İ    by:Rex.Pack v:1.0 ¹«²â°æ(½öÏŞÕûºÏ°æÓÃ)"
+Const GEOM_Title = "Citra MetalMax4 å­˜æ¡£å¤‡ä»½    by:Rex.Pack v:1.0 å…¬æµ‹ç‰ˆ(ä»…é™æ•´åˆç‰ˆç”¨)"
 Const GEOM_Color = "0D"
 
 If Not LCase(Replace(WScript.FullName, WScript.Path & "\", "")) = "cscript.exe" Then
@@ -39,20 +39,21 @@ Next
 
 '---- code
 
-'¼ìË÷·şÎñÆ÷ÊÇ·ñÓĞ´ËMACÎÄ¼ş¼Ğ
+'æ£€ç´¢æœåŠ¡å™¨æ˜¯å¦æœ‰æ­¤MACæ–‡ä»¶å¤¹
 For Each Temp In NowPathItem(1).Items
 	If Temp.Name = MAC Then tfMAC = True: Exit For
 Next
 
-'Èç¹ûÃ»ÓĞ´ËMACÎÄ¼ş¼Ğ,ÔòĞÂ½¨
+'å¦‚æœæ²¡æœ‰æ­¤MACæ–‡ä»¶å¤¹,åˆ™æ–°å»º
 If TypeName(NowPathItem(0).ParseName(MAC))= "Nothing" Then NowPathItem(0).NewFolder MAC
+WSH.Sleep 500
 If Not tfMAC Then
-	WSH.Sleep 500
 	NowPathItem(1).CopyHere NowPathItem(0).Self.Path & "\" & MAC & "\"
+	WSH.Sleep 1000
 End If
 Set NowPathItem(1) = SA(1).NameSpace(RootPathItem).ParseName(MAC).GetFolder
 
-'»ñÈ¡2¸ö´æµµ
+'è·å–2ä¸ªå­˜æ¡£
 For Each Temp In NowPathItem(0).Items
 	Select Case True
 	Case LCase(Temp.Name) = Slot(0):SlotPath(0) = PathCC(Temp.Path)
@@ -65,11 +66,11 @@ Next
 STD.PrintL "------------------------"
 STD.PrintL "	" & GEOM_Title
 STD.PrintL "------------------------"
-STD.PrintL "	ÄãµÄID:  " & MAC
-STD.PrintL "	Äã¿ÉÒÔÇ°Íù http://metalmax.fans ÖĞ°´ÕÕ ÄãµÄID ÕÒµ½ÏÈÇ°±¸·İ¹ıµÄ´æµµ"
+STD.PrintL "	ä½ çš„ID:  " & MAC
+STD.PrintL "	ä½ å¯ä»¥å‰å¾€ http://metalmax.fans ä¸­æŒ‰ç…§ ä½ çš„ID æ‰¾åˆ°å…ˆå‰å¤‡ä»½è¿‡çš„å­˜æ¡£"
 STD.PrintL "------------------------"
-STD.PrintL "	[ 1 ] Slot_0	" & IIf(SlotPath(0)="","ÎŞ","´æÔÚ")
-STD.PrintL "	[ 2 ] Slot_1	" & IIf(SlotPath(1)="","ÎŞ","´æÔÚ")
+STD.PrintL "	[ 1 ] Slot_0	" & IIf(SlotPath(0)="","æ— ","å­˜åœ¨")
+STD.PrintL "	[ 2 ] Slot_1	" & IIf(SlotPath(1)="","æ— ","å­˜åœ¨")
 STD.PrintL "------------------------"
 
 Call Main
@@ -77,12 +78,12 @@ Call Main
 
 Sub Main()
 	On Error Resume Next
-	STD.PrintI "	±¸·İÄÄ¸ö:":Slot_Index = STD.Input
+	STD.PrintI "	å¤‡ä»½å“ªä¸ª:":Slot_Index = STD.Input
 	
 	Select Case Slot_Index
 	Case 1, 2
 		If SlotPath(Slot_Index - 1) = "" Then
-			Echo "  ¸Ã´æµµ²»´æÔÚ,ĞÄÀïÃ»µãÊıÂï~"
+			Echo "  è¯¥å­˜æ¡£ä¸å­˜åœ¨,å¿ƒé‡Œæ²¡ç‚¹æ•°å˜›~"
 		Else
 			NowPathItem(1).CopyHere SlotPath(Slot_Index - 1)
 			NowSlotName = Slot(Slot_Index - 1)
@@ -92,7 +93,7 @@ Sub Main()
 			NowSlot.Name = NewSlotName
 		End If
 	Case Else
-		Echo "  ±íÏ¹¸ã~"
+		Echo "  è¡¨çæ~"
 	End Select
 	
 	Echo Err.Description
@@ -101,7 +102,7 @@ Sub Main()
 End Sub
 
 '----
-'CScriptÊäÈëÊä³ö
+'CScriptè¾“å…¥è¾“å‡º
 Class BaseSTD
 	Sub PrintI(ByVal Texts)
 		WScript.StdOut.Write Texts
@@ -120,13 +121,13 @@ Class BaseSTD
 	End Function
 End Class
 
-'----¸¨Öú
-'±ê×¼IIfº¯Êı
+'----è¾…åŠ©
+'æ ‡å‡†IIfå‡½æ•°
 Function IIf(ByVal TF, ByVal T, ByVal F)
 	If TF = True Then IIf = T Else IIf = F
 End Function
 
-'ÅĞ¶ÏÂ·¾¶ÖĞÊÇ·ñº¬ÓĞ¿Õ¸ñ,Ã»ÓĞÔòÈ¥³ı"ºÅ ÓĞÔòÌí¼ÓÉÏ""
+'åˆ¤æ–­è·¯å¾„ä¸­æ˜¯å¦å«æœ‰ç©ºæ ¼,æ²¡æœ‰åˆ™å»é™¤"å· æœ‰åˆ™æ·»åŠ ä¸Š""
 Function PathC34(ByVal GEOM_FP)
 	If InStr(GEOM_FP, " ") = 0 Then
 		PathC34 = Replace(GEOM_FP, Chr(34), "")
@@ -135,7 +136,7 @@ Function PathC34(ByVal GEOM_FP)
 	End If
 End Function
 
- 'È¥³ıÂ·¾¶µÄ""ºÅ,ÎŞÂÛÓĞÃ»ÓĞ¿Õ¸ñ
+ 'å»é™¤è·¯å¾„çš„""å·,æ— è®ºæœ‰æ²¡æœ‰ç©ºæ ¼
 Function PathCC(ByVal GEOM_FP)
 	PathCC = Replace(GEOM_FP, Chr(34), "")
 End Function
