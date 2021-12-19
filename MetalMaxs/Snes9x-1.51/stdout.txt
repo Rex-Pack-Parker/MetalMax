@@ -1,0 +1,17 @@
+正在读取配置文件	G:\Metal Max\Snes9x-1.51/snes9x.cfg
+正在保存设置文件	G:\Metal Max\Snes9x-1.51/snes9x.cfg
+找到 ROM 文件头 (已忽略它)。
+Map_LoROMMap
+"METAL MAX RETURNS" [bad checksum] LoROM, 32Mbits, Type: ROM+RAM+BAT, Mode: 20, TV: NTSC, S-RAM: 8KB, ROMId: AZMJ Company: C5 CRC32: 42FE9210
+正在保存设置文件	G:\Metal Max\Snes9x-1.51/snes9x.cfg
+absent: SA1(50); next: 'SHO:734213:'
+absent: SP7(65596); next: 'SHO:734213:'
+absent: RTC(24); next: 'SHO:734213:'
+absent: BSX(147); next: 'SHO:734213:'
+absent: MOV(4); next: 'SHO:734213:'
+absent: DSP(1450); next: 'SHO:734213:'
+absent: CX4(8192); next: 'SHO:734213:'
+absent: SFX(996); next: 'SHO:734213:'
+absent: IPU(0); next: 'SHO:734213:'
+absent: GFX(0); next: 'SHO:734213:'
+正在保存设置文件	G:\Metal Max\Snes9x-1.51/snes9x.cfg

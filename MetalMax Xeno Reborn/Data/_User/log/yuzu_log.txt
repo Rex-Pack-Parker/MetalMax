@@ -1,0 +1,11 @@
+[   0.284764] Input <Info> input_common\drivers\udp_client.cpp:UDPClient:140: Udp Initialization started
+[   0.284787] Input <Info> input_common\drivers\udp_client.cpp:StartCommunication:308: Starting communication with UDP input server on 127.0.0.1:26760
+[   0.420057] Frontend <Info> yuzu\main.cpp:GMainWindow:244: yuzu Version: yuzu Early Access 2305
+[   0.420059] Frontend <Info> yuzu\main.cpp:GMainWindow:259: Host CPU: Intel(R) Core(TM) i5-9600K CPU @ 3.70GHz | AVX2 | FMA
+[   0.420181] Frontend <Info> yuzu\main.cpp:GMainWindow:261: Host OS: Windows 10 Version 2009
+[   0.420220] Frontend <Info> yuzu\main.cpp:GMainWindow:263: Host RAM: 31.84 GB
+[   0.420221] Frontend <Info> yuzu\main.cpp:GMainWindow:265: Host Swap: 2.00 GB
+[   0.615836] Loader <Error> core\file_sys\content_archive.cpp:NCA:130: File reader errored out during header read.
+[   0.616524] Loader <Warning> core\loader\loader.cpp:GetLoader:264: File main has a different type than its extension.
+[   0.621823] Loader <Error> core\file_sys\content_archive.cpp:NCA:130: File reader errored out during header read.
+[   0.622372] Loader <Warning> core\loader\loader.cpp:GetLoader:264: File main has a different type than its extension.

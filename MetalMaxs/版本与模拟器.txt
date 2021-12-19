@@ -1,0 +1,15 @@
+ÍøÕ¾:
+ http://metalmax.fans
+ http://window.es-geom.com
+FTP:
+ ftp://mm@s.es-geom.com
+
+1	VirtuaNES
+1r	Snes9x
+2	Snes9x
+2r	DeSmuME
+2¸Ä	VisualBoyAdvance
+3	DeSmuME
+4	µÈ´ý
+MS¸Ö¼¾	DeSmuME
+MSÉ³³¾	PCSX2

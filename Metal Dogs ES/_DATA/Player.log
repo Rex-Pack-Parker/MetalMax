@@ -1,0 +1,236 @@
+Mono path[0] = 'D:/_Game/Game/_Simulator/METAL DOGS ES/DOGS_Data/Managed'
+Mono config path = 'D:/_Game/Game/_Simulator/METAL DOGS ES/MonoBleedingEdge/etc'
+Initialize engine version: 2019.4.30f1 (e8c891080a1f)
+[Subsystems] Discovering subsystems at path D:/_Game/Game/_Simulator/METAL DOGS ES/DOGS_Data/UnitySubsystems
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1080 Ti (ID=0x1b06)
+    Vendor:   
+    VRAM:     11127 MB
+    Driver:   27.21.14.6647
+Begin MonoManager ReloadAssembly
+- Completed reload, in  0.086 seconds
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+UnloadTime: 0.678300 ms
+[4] <IMPORTANT> [SystemSaveData(109).Initialize] #####Initialize SystemSaveData 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[4] <IMPORTANT> [SystemSaveData(124).Initialize] loaded existing SystemSaveData. 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Language: CHN_S 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[4] <IMPORTANT> [SystemSaveData(148).Initialize] #####Succeed to initialize SystemSaveData 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[5] <IMPORTANT> [GameSaveData(220).OnAfterDeserialize] done. 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[7] <IMPORTANT> [GameSaveData(220).OnAfterDeserialize] done. 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[9] <IMPORTANT> [GameSaveData(220).OnAfterDeserialize] done. 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[Steamworks.NET] SteamAPI_Init() failed. Refer to Valve's documentation or the comment above this line for more information. 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[18] <IMPORTANT> [SystemSaveData(101).SetMaxDifficulty] update MaxDifficulty HELL -> HELL 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+[1038] <IMPORTANT> [GameSaveData(195).OnBeforeSerialize] done. 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+UnloadTime: 1.852500 ms
+
+Unloading 136 unused Assets to reduce memory usage. Loaded Objects now: 4120.
+Total: 18.928800 ms (FindLiveObjects: 0.137000 ms CreateObjectMapping: 0.083000 ms MarkObjects: 18.627600 ms  DeleteObjects: 0.080700 ms)
+
+サウンドリソース非同期読み込み 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+マウスモードに切り替えました 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+非同期サウンドリソース読み込み完了 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 12940.
+Total: 36.512200 ms (FindLiveObjects: 0.524600 ms CreateObjectMapping: 0.315900 ms MarkObjects: 35.648500 ms  DeleteObjects: 0.022900 ms)
+
+フォントアセットロードしました：SimplifiedChinese 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[2343] <IMPORTANT> [GameManager(933).CleanUp] start. 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[2344] <IMPORTANT> [GameManager(945).CleanUp] done. 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[2346] <IMPORTANT> [GameSaveData(220).OnAfterDeserialize] done. 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[2346] <IMPORTANT> [GameSaveData(238).ExportToGameManager] succeed. 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[2346] <IMPORTANT> [GameSaveData(319).ExportToFlagManager] succeed. 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[2346] <IMPORTANT> [GameSaveData(343).ExportToQuestFlagManager] succeed. 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[2346] <IMPORTANT> [GameSaveData(295).ExportToInventoryManager] succeed. 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[2346] <IMPORTANT> [GameSaveData(253).ExportToDungeonManager] done. 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[2346] <IMPORTANT> [GameManager(272).PostInitializeSaveData] GameManager initialized. 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+ダンジョンフローをロード：DungeonFlow/DungeonFlowDesert_18 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+The referenced script on this Behaviour (Game Object '!ftraceLightmaps') is missing! 
+(Filename:  Line: 334)
+
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+[2550] <IMPORTANT> [GameSaveData(195).OnBeforeSerialize] done. 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+UnloadTime: 0.895100 ms
+[2550] <IMPORTANT> [GameManager(168).AutoSaveInDungeon]  
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+
+Unloading 29492 unused Assets to reduce memory usage. Loaded Objects now: 41711.
+Total: 79.581800 ms (FindLiveObjects: 2.347300 ms CreateObjectMapping: 3.577800 ms MarkObjects: 66.289200 ms  DeleteObjects: 7.367100 ms)
+
+[2551] <IMPORTANT> [GameSaveData(195).OnBeforeSerialize] done. 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+
+Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 41726.
+Total: 69.227500 ms (FindLiveObjects: 1.713100 ms CreateObjectMapping: 1.130500 ms MarkObjects: 65.943200 ms  DeleteObjects: 0.440200 ms)
+
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 41983.
+Total: 68.847400 ms (FindLiveObjects: 1.556300 ms CreateObjectMapping: 1.125900 ms MarkObjects: 66.054900 ms  DeleteObjects: 0.109700 ms)
+
+[2554] <IMPORTANT> [GameManager(334).AutoSave] AutoSave started. place=DC001:QUEST_260:7F:CASUAL isAtMapJump=True 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Failed to create agent because it is not close enough to the NavMesh 
+(Filename:  Line: 648)
+
+Failed to create agent because it is not close enough to the NavMesh 
+(Filename:  Line: 648)
+
+Failed to create agent because it is not close enough to the NavMesh 
+(Filename:  Line: 648)
+
+Failed to create agent because it is not close enough to the NavMesh 
+(Filename:  Line: 648)
+
+Failed to create agent because it is not close enough to the NavMesh 
+(Filename:  Line: 648)
+
+Shader warmup: 109 shaders 5838 combinations 0.504s
+[6075] <IMPORTANT> [EnemyBrain(589).OnKilled] drop extraDropCountCoefficient:1.00 name:'EZ051_01(Clone)' 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[6216] <IMPORTANT> [EnemyBrain(589).OnKilled] drop extraDropCountCoefficient:1.00 name:'EZ038_01(Clone)' 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[6459] <IMPORTANT> [EnemyBrain(589).OnKilled] drop extraDropCountCoefficient:1.00 name:'EZ067_01(Clone)' 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[6689] <IMPORTANT> [EnemyBrain(589).OnKilled] drop extraDropCountCoefficient:1.00 name:'EZ038_01(Clone)' 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[6759] <IMPORTANT> [EnemyBrain(589).OnKilled] drop extraDropCountCoefficient:1.00 name:'EZ038_01(Clone)' 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[6899] <IMPORTANT> [EnemyBrain(589).OnKilled] drop extraDropCountCoefficient:1.00 name:'EZ067_01(Clone)' 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[8405] <IMPORTANT> [EnemyBrain(589).OnKilled] drop extraDropCountCoefficient:1.00 name:'EZ525_00(Clone)' 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Unloading 4 Unused Serialized files (Serialized files now loaded: 69)
+[12639] <IMPORTANT> [GameSaveData(195).OnBeforeSerialize] done. 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+UnloadTime: 17.076500 ms
+
+Unloading 6081 unused Assets to reduce memory usage. Loaded Objects now: 24910.
+Total: 47.440200 ms (FindLiveObjects: 1.263600 ms CreateObjectMapping: 2.079300 ms MarkObjects: 40.728300 ms  DeleteObjects: 3.368700 ms)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 55)
+
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 24910.
+Total: 41.829600 ms (FindLiveObjects: 0.980700 ms CreateObjectMapping: 1.113200 ms MarkObjects: 39.703900 ms  DeleteObjects: 0.031100 ms)
+
+Unloading 4 Unused Serialized files (Serialized files now loaded: 57)
+[13214] <IMPORTANT> [GameSaveData(195).OnBeforeSerialize] done. 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+UnloadTime: 0.343400 ms
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 24906.
+Total: 42.026400 ms (FindLiveObjects: 0.916800 ms CreateObjectMapping: 0.963400 ms MarkObjects: 40.081600 ms  DeleteObjects: 0.064000 ms)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 57)
+
+Unloading 265 unused Assets to reduce memory usage. Loaded Objects now: 42084.
+Total: 89.626300 ms (FindLiveObjects: 1.672200 ms CreateObjectMapping: 2.011800 ms MarkObjects: 85.761900 ms  DeleteObjects: 0.179900 ms)
+
+[13364] <IMPORTANT> [GameSaveData(195).OnBeforeSerialize] done. 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[13367] <IMPORTANT> [GameManager(334).AutoSave] AutoSave started. place=DC001:CAMP::CASUAL isAtMapJump=False 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+ゲームパッドモードに切り替えました 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+マウスモードに切り替えました 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+ゲームパッドモードに切り替えました 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+カーソル(BUTTON_FUNCTION4 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Function4 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+カーソル(BUTTON_FUNCTION4 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Function4 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+マウスモードに切り替えました 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+ゲームパッドモードに切り替えました 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[203337] <IMPORTANT> [GameSaveData(195).OnBeforeSerialize] done. 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Setting up 3 worker threads for Enlighten.
+  Thread -> id: 4fac -> priority: 1 
+  Thread -> id: 5080 -> priority: 1 
+  Thread -> id: 4eb0 -> priority: 1 

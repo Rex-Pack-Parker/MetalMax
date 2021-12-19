@@ -1,0 +1,23 @@
+
+一、系统要求：Vista/7/8/8.1/10
+
+二、基础库：需VC2017运行库支持；
+    VC库是什么就不多说了，Windows系统一般都应该有，这里不额外打包
+
+    提示msvcpXXX.dll缺失的请安装或者重新安装相应的VC库
+
+    实在没的，百度或者到这里下载
+
+    http://www.ksite.xyz/contents/vcvb-redist.html
+
+三、打开失败、崩溃等，请先检测CPU是否支持
+    
+    http://www.ksite.xyz/contents/check-sse-avx-bat.html
+
+四、软栅也够用的，没必要迷信OpenGL
+
+五、自用版！用不起、或不喜—请直接删除，少比比
+
+---
+K
+2020
