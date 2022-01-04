@@ -17,6 +17,7 @@ Set SD_Menu  = CreateObject("Scripting.Dictionary")
 Set SD_Subsidiary  = CreateObject("Scripting.Dictionary")
 
 
+
 For Each Item In Array("1 开关补丁|Patch", "2 开关DLC|DLC", "3 选择金手指文件", "4 选择MOD")
 	Dim TempVal
 	TempVal = Split(Item)
@@ -44,6 +45,18 @@ Echo  "1 切换金手指"
 Echo  "2 切换模组"
 Echo  "3 开关补丁"
 Echo  "4 开关DLC"
+
+Set Obj_CL = WScript.Arguments
+If Obj_CL.Count = 0 Then
+	'
+Else
+	For Each CMS In Obj_CL
+		Select Case CMS
+		Case "3": Call SubsidiaryOC("Patch")
+		Case "4": Call SubsidiaryOC("DLC")
+		End Select
+	Next
+End If
 
 Call Main()
 
